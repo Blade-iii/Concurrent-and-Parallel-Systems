@@ -8,6 +8,6 @@ int main() {
     thread t([] {cout << "Hello" << endl; });
     // Join thread
     t.join();
-    
+
     return 0;
 }
