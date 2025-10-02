@@ -32,14 +32,35 @@
 *.app
 Lab2/Monte Carlo Pi Algorithm/.idea/editor.xml
 *.iml
-Lab3/Shared Pointers/.idea/vcs.xml
-Lab3/Shared Pointers/CMakeLists.txt
-Lab3/Shared Pointers/.idea/modules.xml
-Lab2/Monte Carlo Pi Algorithm/.idea/editor.xml
-Lab3/Shared Pointers/.idea/.name
-Lab3/Shared Pointers/.idea/editor.xml
-Lab3/Shared Pointers/.idea/misc.xml
-Lab2/Monte Carlo Pi Algorithm/.idea/editor.xml
-Lab2/Monte Carlo Pi Algorithm/.idea/editor.xml
-/Lab2/Monte Carlo Pi Algorithm/.idea
-Lab2/Monte Carlo Pi Algorithm/.idea/editor.xml
+
+
+# CLion-specific
+.idea/
+cmake-build-*/
+
+# CMake-generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Executables and object files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
